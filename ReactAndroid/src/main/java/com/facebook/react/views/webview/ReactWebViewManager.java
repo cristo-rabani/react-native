@@ -550,6 +550,7 @@ public class ReactWebViewManager extends SimpleViewManager<WebView> {
           }
         }
         view.loadUrl(url, headerMap);
+        view.requestFocus();
         return;
       }
     }
